@@ -50,8 +50,8 @@ docker stop .
 
 ## Production Dockerfile (с подробным объяснением)   
 
-- [`Node.js`]() - Production, Multi-stage, non-root
-- [`Python`]() - FastAPI / Django, Gunicorn
+- [`Node.js`](docker/nodejs) - Production, Multi-stage, non-root
+- [`Python`](docker/python) - FastAPI / Django, Gunicorn
 - [`Java`]() - Spring Boot, Multi-stage, JAR
 - [`Go`]() - минимальный production
 - [`Nginx`]() - frontend build + serve
