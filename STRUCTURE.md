@@ -52,19 +52,19 @@ docker stop .
 
 - [`Node.js`](docker/nodejs) - Production, Multi-stage, non-root
 - [`Python`](docker/python) - FastAPI / Django, Gunicorn
-- [`Java`]() - Spring Boot, Multi-stage, JAR
-- [`Go`]() - минимальный production
-- [`Nginx`]() - frontend build + serve
-- [`PHP`]() - Laravel + FPM
-- [`PostgreSQL`]() - кастомный PostgreSQL (Автоматический init при первом запуске.)
-- [`Redis`]() - Redis с конфигом
-- [`Rust`]() - Rust multi-stage
-- [`Universal template`]() - универсальный шаблон под debian
-- [`Node.js + Prisma + Alpine + Healthcheck`]()
-- [`Python + Poetry + Multi-stage`]()
-- [`Java + Gradle + Layered JAR`]()
-- [`Go + distroless`]()
-- [`ASP.NET Core (Production)`]()
+- [`Java`](docker/java) - Spring Boot, Multi-stage, JAR
+- [`Go`](docker/go) - минимальный production
+- [`Nginx`](docker/nginx) - frontend build + serve
+- [`PHP`](docker/php) - Laravel + FPM
+- [`PostgreSQL`](docker/postgresql) - кастомный PostgreSQL (Автоматический init при первом запуске.)
+- [`Redis`](docker/redis) - Redis с конфигом
+- [`Rust`](docker/rust) - Rust multi-stage
+- [`Universal template`](docker/universal-template) - универсальный шаблон под debian
+- [`Node.js + Prisma + Alpine + Healthcheck`](docker/nodejs-prisma-alpine)
+- [`Python + Poetry + Multi-stage`](docker/python-poetry)
+- [`Java + Gradle + Layered JAR`](docker/java-gradle)
+- [`Go + distroless`](docker/go-distroless)
+- [`ASP.NET Core (Production)`](docker/aspnet-core)
 - [`Ruby on Rails`]()
 - [`C++ + Multi-stage`]()
 - [`Alpine + Cron Job container`]()
